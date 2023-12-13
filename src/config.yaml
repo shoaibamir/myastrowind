@@ -1,6 +1,6 @@
 site:
-  name: AstroWind
-  site: 'https://astrowind.vercel.app'
+  name: Pakistan Cargo
+  site: 'https://www.pakistancargo.org'
   base: '/'
   trailingSlash: false
 
@@ -9,14 +9,14 @@ site:
 # Default SEO metadata
 metadata:
   title:
-    default: AstroWind
-    template: '%s — AstroWind'
-  description: "\U0001F680 Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs."
+    default: Pakistan cargo
+    template: '%s — Pakistan Cargo'
+  description: "\U0001F680 No.1 Pakistan Cargo in Dubai, Abu Dhabi, Sharjah. We offer sea cargo, air cargo, warehouse storage, customs clearance and packing."
   robots:
     index: true
     follow: true
   openGraph:
-    site_name: AstroWind
+    site_name: Pakistan Cargo
     images:
       - url: '~/assets/images/default.png'
         width: 1200
