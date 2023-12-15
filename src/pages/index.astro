@@ -257,7 +257,7 @@ const metadata = {
 
   <!-- Features2 Widget ************** -->
 
-  <Features2
+  <!-- <Features2
     title="Most used widgets"
     subtitle="Provides frequently used components for building websites using Tailwind CSS"
     tagline="Components"
@@ -317,7 +317,7 @@ const metadata = {
     <Fragment slot="bg">
       <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
     </Fragment>
-  </Features2>
+  </Features2> -->
 
   <!-- HighlightedPosts Widget ******* -->
 
@@ -376,8 +376,8 @@ const metadata = {
     stats={[
       { title: 'Containers', amount: '1240' },
       { title: 'Deliveries', amount: '24.8K' },
-      { title: 'Offices', amount: '10' },
-      { title: 'Staff', amount: '80' },
+      { title: 'Offices', amount: '7' },
+      { title: 'Staff', amount: '50' },
     ]}
   />
 
@@ -388,19 +388,19 @@ const metadata = {
       {
         variant: 'primary',
         text: 'Contact Us',
-        href: '~/contact',
+        href: '/contact',
         target: '_blank',
         icon: 'tabler:download',
       },
     ]}
   >
     <Fragment slot="title">
-      Contact&nbsp;+&nbsp;<br class="block sm:hidden" /><span class="sm:whitespace-nowrap">Us</span>
+      Contact&nbsp;<br class="block sm:hidden" /><span class="sm:whitespace-nowrap">Us</span>
     </Fragment>
 
     <Fragment slot="subtitle">
       This ensures on-time delivery, reasonable rates, faster customs clearance and transit warehousing of our customers' goods. <br class="hidden md:inline" />Don't
-      waste more time! :P
+      waste more time!
     </Fragment>
   </CallToAction>
 </Layout>
