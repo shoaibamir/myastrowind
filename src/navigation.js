@@ -4,24 +4,24 @@ export const headerData = {
   links: [
     {
       text: 'Homes',
-      links: [
-        {
-          text: 'SaaS',
-          href: getPermalink('/homes/saas'),
-        },
-        {
-          text: 'Startup',
-          href: getPermalink('/homes/startup'),
-        },
-        {
-          text: 'Mobile App',
-          href: getPermalink('/homes/mobile-app'),
-        },
-        {
-          text: 'Personal',
-          href: getPermalink('/homes/personal'),
-        },
-      ],
+      // links: [
+      //   {
+      //     text: 'SaaS',
+      //     href: getPermalink('/homes/saas'),
+      //   },
+      //   {
+      //     text: 'Startup',
+      //     href: getPermalink('/homes/startup'),
+      //   },
+      //   {
+      //     text: 'Mobile App',
+      //     href: getPermalink('/homes/mobile-app'),
+      //   },
+      //   {
+      //     text: 'Personal',
+      //     href: getPermalink('/homes/personal'),
+      //   },
+      // ],
     },
     {
       text: 'Pages',
@@ -92,18 +92,18 @@ export const headerData = {
           text: 'Blog List',
           href: getBlogPermalink(),
         },
-        {
-          text: 'Article',
-          href: getPermalink('get-started-website-with-astro-tailwind-css', 'post'),
-        },
-        {
-          text: 'Article (with MDX)',
-          href: getPermalink('markdown-elements-demo-post', 'post'),
-        },
-        {
-          text: 'Category Page',
-          href: getPermalink('tutorials', 'category'),
-        },
+        // {
+        //   text: 'Article',
+        //   href: getPermalink('get-started-website-with-astro-tailwind-css', 'post'),
+        // },
+        // {
+        //   text: 'Article (with MDX)',
+        //   href: getPermalink('markdown-elements-demo-post', 'post'),
+        // },
+        // {
+        //   text: 'Category Page',
+        //   href: getPermalink('tutorials', 'category'),
+        // },
         {
           text: 'Tag Page',
           href: getPermalink('astro', 'tag'),
@@ -177,7 +177,7 @@ export const footerData = {
     { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/onwidget/astrowind' },
   ],
   footNote: `
-    <span class="w-5 h-5 md:w-6 md:h-6 md:-mt-0.5 bg-cover mr-1.5 rtl:mr-0 rtl:ml-1.5 float-left rtl:float-right rounded-sm bg-[url(https://onwidget.com/favicon/favicon-32x32.png)]"></span>
-    Made by <a class="text-blue-600 hover:underline dark:text-gray-200" href="https://onwidget.com/"> onWidget</a> · All rights reserved.
+    <span class="w-5 h-5 md:w-6 md:h-6 md:-mt-0.5 bg-cover mr-1.5 rtl:mr-0 rtl:ml-1.5 float-left rtl:float-right rounded-sm bg-[url(https://pakistancargoexpress.com)]"></span>
+    Made by <a class="text-blue-600 hover:underline dark:text-gray-200" href="https://pakistancargo.org/"> Pakistan cargo</a> · All rights reserved.
   `,
 };
