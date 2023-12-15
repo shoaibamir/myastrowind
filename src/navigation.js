@@ -127,8 +127,8 @@ export const footerData = {
     {
       title: 'Products',
       links: [
-        { text: 'Sea Cargo', href: '/services' },
-        { text: 'Air Cargo', href: '/services' },
+        { text: 'Sea Cargo', href: getPermalink('/services') },
+        { text: 'Air Cargo', href: getPermalink('/services') },
         { text: 'Warehousing', href: '/services' },
         { text: 'Courier Servcies', href: '/services' },
         { text: 'Transportation', href: '/services' },
