@@ -4,7 +4,7 @@ export const headerData = {
   links: [
     {
       text: 'Home',
-      href: getPermalink('/'),
+      href: getPermalink('/')
       // links: [
       //   {
       //     text: 'SaaS',
@@ -48,7 +48,7 @@ export const headerData = {
     //       text: 'About us',
     //       href: getPermalink('/about'),
     //     },
-       
+      
     //     {
     //       text: 'Terms',
     //       href: getPermalink('/terms'),
@@ -57,8 +57,8 @@ export const headerData = {
     //       text: 'Privacy policy',
     //       href: getPermalink('/privacy'),
     //     },
-      ],
-    },
+    //   ],
+    // },
     // {
     //   text: 'Landing',
     //   links: [
@@ -96,18 +96,18 @@ export const headerData = {
       //     text: 'Blog List',
       //     href: getBlogPermalink(),
       //   },
-      //   // {
-      //   //   text: 'Article',
-      //   //   href: getPermalink('get-started-website-with-astro-tailwind-css', 'post'),
-      //   // },
-      //   // {
-      //   //   text: 'Article (with MDX)',
-      //   //   href: getPermalink('markdown-elements-demo-post', 'post'),
-      //   // },
-      //   // {
-      //   //   text: 'Category Page',
-      //   //   href: getPermalink('tutorials', 'category'),
-      //   // },
+      //   {
+      //     text: 'Article',
+      //     href: getPermalink('get-started-website-with-astro-tailwind-css', 'post'),
+      //   },
+      //   {
+      //     text: 'Article (with MDX)',
+      //     href: getPermalink('markdown-elements-demo-post', 'post'),
+      //   },
+      //   {
+      //     text: 'Category Page',
+      //     href: getPermalink('tutorials', 'category'),
+      //   },
       //   {
       //     text: 'Tag Page',
       //     href: getPermalink('astro', 'tag'),
@@ -119,7 +119,7 @@ export const headerData = {
     //   href: '#',
     // },
   ],
-  actions: [{ text: 'Whatsapp', href: 'https://wa.me/message/TJZP4WU2P2XGD1', target: '_blank' }],
+  actions: [{ text: 'WhatsApp', icon: 'tabler:brand-whatsapp', href: 'https://wa.me/message/TJZP4WU2P2XGD1', target: '_blank' }],
 };
 
 export const footerData = {
@@ -127,8 +127,8 @@ export const footerData = {
     {
       title: 'Products',
       links: [
-        { text: 'Sea Cargo', href: getPermalink('/services') },
-        { text: 'Air Cargo', href: getPermalink('/services') },
+        { text: 'Sea Cargo', href: '/services' },
+        { text: 'Air Cargo', href: '/services' },
         { text: 'Warehousing', href: '/services' },
         { text: 'Courier Servcies', href: '/services' },
         { text: 'Transportation', href: '/services' },
@@ -160,7 +160,7 @@ export const footerData = {
       title: 'Company',
       links: [
         { text: 'About', href: '#' },
-        { text: 'Blog', href: 'getBlogPermalink()' },
+        { text: 'Blog', href: '/blog' },
         { text: 'Careers', href: '/contact' },
         { text: 'Contact', href: '/contact' },
         // { text: 'Inclusion', href: '#' },
@@ -169,19 +169,19 @@ export const footerData = {
       ],
     },
   ],
-  secondaryLinks: [
-    // { text: 'Terms', href: getPermalink('/terms') },
-    // { text: 'Privacy Policy', href: getPermalink('/privacy') },
-  ],
+  // secondaryLinks: [
+  //   { text: 'Terms', href: getPermalink('/terms') },
+  //   { text: 'Privacy Policy', href: getPermalink('/privacy') },
+  // ],
   socialLinks: [
     { ariaLabel: 'X', icon: 'tabler:brand-x', href: 'https://twitter.com/Pakistani_cargo' },
     { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: 'https://www.instagram.com/pakistanicargo' },
     { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: 'https://www.facebook.com/pakistancargouae' },
     { ariaLabel: 'RSS', icon: 'tabler:rss', href: getAsset('/rss.xml') },
-    { ariaLabel: 'Linkedin', icon: 'tabler:brand-github', href: 'https://www.linkedin.com/company/pakistancargo' },
+    { ariaLabel: 'Linkedin', icon: 'tabler:brand-linkedin', href: 'https://www.linkedin.com/company/pakistancargo' },
   ],
   footNote: `
-    <span class="w-5 h-5 md:w-6 md:h-6 md:-mt-0.5 bg-cover mr-1.5 rtl:mr-0 rtl:ml-1.5 float-left rtl:float-right rounded-sm bg-[url(https://pakistancargoexpress.com)]"></span>
-    <a class="text-blue-600 hover:underline dark:text-gray-200" href="https://pakistancargo.org/"> Pakistan cargo</a> · All rights reserved.
+    <span class="w-5 h-5 md:w-6 md:h-6 md:-mt-0.5 bg-cover mr-1.5 rtl:mr-0 rtl:ml-1.5 float-left rtl:float-right rounded-sm bg-[url(https://www.pakistancargoexpress.com)]"></span>
+    <a class="text-blue-600 hover:underline dark:text-gray-200" href="https://www.pakistanlogistics.com/"> Pakistan Cargo</a> · All rights reserved.
   `,
 };
