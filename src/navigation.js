@@ -4,7 +4,7 @@ export const headerData = {
   links: [
     {
       text: 'Home',
-      href: getPermalink('/')
+      href: getPermalink('/'),
       // links: [
       //   {
       //     text: 'SaaS',
@@ -43,12 +43,12 @@ export const headerData = {
     //       text: 'Features (Anchor Link)',
     //       href: getPermalink('/#features'),
     //     },
-             
+
     //     {
     //       text: 'About us',
     //       href: getPermalink('/about'),
     //     },
-      
+
     //     {
     //       text: 'Terms',
     //       href: getPermalink('/terms'),
@@ -119,7 +119,9 @@ export const headerData = {
     //   href: '#',
     // },
   ],
-  actions: [{ text: 'WhatsApp', icon: 'tabler:brand-whatsapp', href: 'https://wa.me/message/TJZP4WU2P2XGD1', target: '_blank' }],
+  actions: [
+    { text: 'WhatsApp', icon: 'tabler:brand-whatsapp', href: 'https://wa.me/message/TJZP4WU2P2XGD1', target: '_blank' },
+  ],
 };
 
 export const footerData = {
