@@ -4,7 +4,7 @@ site:
   base: '/'
   trailingSlash: false
 
-  googleSiteVerificationId: orcPxI47GSa-cRvY11tUe6iGg2IO_RPvnA1q95iEM3M
+  googleSiteVerificationId: QoshIebqQQfeytBG0qDP6QO_zWWpjCmZkfw9yG_0mwU
 
 # Default SEO metadata
 metadata:
@@ -16,15 +16,15 @@ metadata:
     index: true
     follow: true
   openGraph:
-    site_name: Pakistan Cargo
+    site_name: PakistanCargo.org
     images:
       - url: '~/assets/images/default.png'
         width: 1200
         height: 628
     type: website
   twitter:
-    handle: '@onwidget'
-    site: '@onwidget'
+    handle: '@Pakistani_cargo'
+    site: '@Pakistani_cargo'
     cardType: summary_large_image
 
 i18n:
