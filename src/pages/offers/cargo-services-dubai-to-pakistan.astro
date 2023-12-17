@@ -1,0 +1,41 @@
+---
+import Layout from '~/layouts/LandingLayout.astro';
+
+import Hero2 from '~/components/widgets/Hero2.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+const metadata = {
+  title: 'Click-through Landing Page Demo',
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- Hero2 Widget ******************* -->
+
+  <Hero2
+    tagline="Affoardable Cargo Servcie to Pakistan"
+    title="Cargo Service Dubai to Pakistan!"
+    subtitle="Learn how to design a Click-Through Landing Page that seamlessly guides visitors to your main offer."
+    actions={[
+      { variant: 'primary', text: 'WhatsApp', href: 'https://wa.me/message/TJZP4WU2P2XGD1', icon: 'tabler:brand-whatsapp' },
+      { text: 'Contact', href: '/' },
+    ]}
+    image={{
+      src: 'https://images.pexels.com/photos/2881632/pexels-photo-2881632.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      alt: 'Cargo Service Dubai to Pakistan',
+    }}
+  />
+
+  <CallToAction
+    title="Free Pickup"
+    subtitle="Pakistan cargo near me, contact now to arrange the free pickup!"
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Contact',
+        href: '/',
+        icon: 'tabler:phone',
+      },
+    ]}
+  />
+</Layout>

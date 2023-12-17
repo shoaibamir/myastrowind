@@ -1,0 +1,41 @@
+---
+import Layout from '~/layouts/LandingLayout.astro';
+
+import Hero2 from '~/components/widgets/Hero2.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+const metadata = {
+  title: 'Cargo UAE to Pakistan',
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- Hero2 Widget ******************* -->
+
+  <Hero2
+    tagline="Shipping UAE to Pakistan"
+    title="Cargo UAE to Pakistan!"
+    subtitle="Send your cargo anywhere in Pakistan. We are specialized in packing and moving home appliances, furniture, TV and all other items."
+    actions={[
+      { variant: 'primary', text: 'WhatsApp', href: 'https://wa.me/message/TJZP4WU2P2XGD1', icon: 'tabler:brand-whatsapp' },
+      { text: 'Contact', href: '/' },
+    ]}
+    image={{
+      src: 'https://images.pexels.com/photos/2881632/pexels-photo-2881632.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      alt: 'cargo UAE to Pakistan everywhere',
+    }}
+  />
+
+  <CallToAction
+    title="Pickup is Free"
+    subtitle="We offer services like courier, storage warehousing, movers &  packers, cargo and shipments from door to door."
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Contact',
+        href: '/',
+        icon: 'tabler:phone',
+      },
+    ]}
+  />
+</Layout>

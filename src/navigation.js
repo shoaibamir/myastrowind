@@ -59,35 +59,35 @@ export const headerData = {
     //     },
     //   ],
     // },
-    // {
-    //   text: 'Landing',
-    //   links: [
-    //     {
-    //       text: 'Lead Generation',
-    //       href: getPermalink('/landing/lead-generation'),
-    //     },
-    //     {
-    //       text: 'Long-form Sales',
-    //       href: getPermalink('/landing/sales'),
-    //     },
-    //     {
-    //       text: 'Click-Through',
-    //       href: getPermalink('/landing/click-through'),
-    //     },
-    //     {
-    //       text: 'Product Details (or Services)',
-    //       href: getPermalink('/landing/product'),
-    //     },
-    //     {
-    //       text: 'Coming Soon or Pre-Launch',
-    //       href: getPermalink('/landing/pre-launch'),
-    //     },
-    //     {
-    //       text: 'Subscription',
-    //       href: getPermalink('/landing/subscription'),
-    //     },
-    //   ],
-    // },
+    {
+      text: 'Offers',
+      links: [
+        {
+          text: 'Cargo to Pakistan',
+          href: getPermalink('/offers/cargo-to-pakistan'),
+        },
+        {
+          text: 'Pakistan Cargo Service',
+          href: getPermalink('/offers/pakistan-cargo-service'),
+        },
+        {
+          text: 'Cargo Services Dubai to Pakistan',
+          href: getPermalink('/offers/cargo-services-dubai-to-pakistan'),
+        },
+        {
+          text: 'Cargo Pakistan',
+          href: getPermalink('/offers/cargo-pakistan'),
+        },
+        {
+          text: 'Pak Cargo',
+          href: getPermalink('/offers/pak-cargo'),
+        },
+        {
+          text: 'Cargo UAE to Pakistan',
+          href: getPermalink('/offers/cargo-uae-to-pakistan'),
+        },
+      ],
+    },
     {
       text: 'Blog',
       href: getBlogPermalink(),

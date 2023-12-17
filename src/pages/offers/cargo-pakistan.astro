@@ -1,0 +1,41 @@
+---
+import Layout from '~/layouts/LandingLayout.astro';
+
+import Hero from '~/components/widgets/Hero.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+const metadata = {
+  title: 'Cargo Pakistan',
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- Hero2 Widget ******************* -->
+
+  <Hero
+    tagline="Cargo ship to Pakistan"
+    title="Cargo Pakistan!"
+    subtitle="We pick, pack and move cargo shipments locally and internationally. We have an extensive network of trusted, reliable partners to make your relocation experience as seamless as possible.."
+    actions={[
+      { variant: 'primary', text: 'WhatsApp', href: 'https://wa.me/message/TJZP4WU2P2XGD1', icon: 'tabler:brand-whatsapp' },
+      { text: 'Call Us', href: '/' },
+    ]}
+    image={{
+      src: 'https://cdn.pixabay.com/photo/2017/08/01/21/54/container-2568197_1280.jpg',
+      alt: 'Cargo Pakistan from Dubai and Abu dhabi',
+    }}
+  />
+
+  <CallToAction
+    title="Free Pickup"
+    subtitle="Are you planning to move soon? Mover and Packers has the best movers in the industry, who pack and move cargo shipments locally or internationally!"
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Call us',
+        href: '/',
+        icon: 'tabler:phone',
+      },
+    ]}
+  />
+</Layout>

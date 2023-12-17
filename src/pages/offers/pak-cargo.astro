@@ -1,0 +1,41 @@
+---
+import Layout from '~/layouts/LandingLayout.astro';
+
+import Hero2 from '~/components/widgets/Hero2.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+const metadata = {
+  title: 'Pak Cargo',
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- Hero2 Widget ******************* -->
+
+  <Hero2
+    tagline="Cargo to Pak"
+    title="Pak Cargo!"
+    subtitle="We are a trusted, reliable international shipping company. We offer door-to-door local and international shipping services that meet your needs and exceed your expectations."
+    actions={[
+      { variant: 'primary', text: 'WhatsApp', href: 'https://wa.me/message/TJZP4WU2P2XGD1', icon: 'tabler:brand-whatsapp' },
+      { text: 'Contact Us', href: '/' },
+    ]}
+    image={{
+      src: 'https://images.pexels.com/photos/2881632/pexels-photo-2881632.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      alt: 'Pak cargo Service UAe',
+    }}
+  />
+
+  <CallToAction
+    title="Free Pickup"
+    subtitle="Save time, money and worry with Easy Load shipping. We pick, pack and ship your items door to door locally or internationally!"
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Contact Now',
+        href: '/',
+        icon: 'tabler:phone',
+      },
+    ]}
+  />
+</Layout>

@@ -1,0 +1,41 @@
+---
+import Layout from '~/layouts/LandingLayout.astro';
+
+import Hero2 from '~/components/widgets/Hero2.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+const metadata = {
+  title: 'Sales Landing Page Demo',
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- Hero2 Widget ******************* -->
+
+  <Hero2
+    tagline="Want to ship?"
+    title="Pakistan Cargo Service!"
+    subtitle="We offer end to end cargo servcie upto your home."
+    actions={[
+      { variant: 'primary', text: 'WhatsApp', href: 'https://wa.me/message/TJZP4WU2P2XGD1', icon: 'tabler:square-rounded-arrow-right' },
+      { text: 'Contact', href: '/' },
+    ]}
+    image={{
+      src: 'https://images.pexels.com/photos/2881632/pexels-photo-2881632.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      alt: 'Pakistan Cargo service',
+    }}
+  />
+
+  <CallToAction
+    title="Free Pickup"
+    subtitle="Call now to arrange your pickup!"
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Contact',
+        href: '/',
+        icon: 'tabler:phone',
+      },
+    ]}
+  />
+</Layout>
