@@ -3,7 +3,7 @@ import Layout from '~/layouts/PageLayout.astro';
 import HeroText from '~/components/widgets/HeroText.astro';
 import ContactUs from '~/components/widgets/Contact.astro';
 import Features2 from '~/components/widgets/Features2.astro';
-
+import CallToAction from '~/components/widgets/CallToAction.astro';
 const metadata = {
   title: 'Contact',
 };
@@ -11,8 +11,12 @@ const metadata = {
 
 <Layout metadata={metadata}>
   <!-- HeroText Widget ******************* -->
+  
 
   <HeroText tagline="Contact" title="Let's Connect!" />
+
+  
+  
 
   <ContactUs
     title="Drop us a message today!"
@@ -45,18 +49,18 @@ const metadata = {
     title="We are here to help!"
     items={[
       {
-        title: 'General support',
-        description: `Chat with us for inquiries related to account management, website navigation, payment issues, accessing purchased templates or general questions about the website's functionality.`,
+        title: 'Consultation about shipping',
+        description: `Chat with us for questions about servcies and inquiries about cargo shipping, etc.`,
       },
       {
         title: 'Contact sales',
         description:
-          'Chat with us for questions about purchases, customization options, licensing for commercial use, inquiries about specific template, etc.',
+          'Chat with us for questions about servcies and inquiries about cargo shipping, etc.',
       },
       {
-        title: 'Technical support',
+        title: 'Followup',
         description:
-          'Chat with us when facing issues like template installation, problems editing difficulties, compatibility issues with software or download errors, or other technical challenges related to using the templates.',
+          'Chat with us for questions about servcies and inquiries about cargo shipping, etc.',
       },
       {
         title: 'Phone',
@@ -85,5 +89,6 @@ const metadata = {
         icon: 'tabler:map-pin',
       },
     ]}
+    
   />
 </Layout>
