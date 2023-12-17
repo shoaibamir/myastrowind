@@ -8,7 +8,7 @@ tags:
   - Shipping
   - Cargo
   - Delivery
-image: https://images.unsplash.com/photo-1561069934-eee225952461?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80
+image: https://images.pexels.com/photos/161153/sheikh-zayed-grand-mosque-white-mosque-abu-dhabi-161153.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
 publishDate: 2023-12-13T08:01:02.689Z
 author: Amir
 ---
