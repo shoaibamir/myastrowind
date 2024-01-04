@@ -1,8 +1,7 @@
 ---
 title: Pakistan Cargo Abu Dhabi
-excerpt: Are you looking for a reliable and efficient cargo service to Pakistan
-  from Abu Dhabi? Look no further! Our dedicated team is here to cater to all
-  your shipping needs with a personalized touch.
+excerpt: "Are you looking for a reliable and efficient cargo service to Pakistan
+  from Abu Dhabi? Look no further! "
 category: cargo
 tags:
   - Shipping
