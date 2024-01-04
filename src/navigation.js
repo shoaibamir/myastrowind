@@ -86,6 +86,10 @@ export const headerData = {
           text: 'Cargo UAE to Pakistan',
           href: getPermalink('/offers/cargo-uae-to-pakistan'),
         },
+        {
+          text: 'Cargo Packing',
+          href: getPermalink('/offers/cargo-packing'),
+        },
       ],
     },
     {
