@@ -74,8 +74,6 @@ However, land transportation can be more expensive than other modes of transport
 
 The shipping process for Freight to Pakistan can vary depending on the mode of transportation and the specific requirements of the shipping company. However, there are several key steps that are common to most cargo shipments.
 
-
-
 ## Choosing the right cargo company
 
 When it comes to shipping cargo to Pakistan, choosing the right cargo company is crucial. There are several factors that you should consider when making your decision, including:

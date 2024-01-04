@@ -6,6 +6,8 @@ import CallToAction from '~/components/widgets/CallToAction.astro';
 
 const metadata = {
   title: 'Cargo Pakistan',
+  description:
+    'We pick, pack and move cargo shipments locally and internationally. We have an extensive network of trusted, reliable partners to make your relocation experience',
 };
 ---
 
@@ -17,7 +19,12 @@ const metadata = {
     title="Cargo Pakistan!"
     subtitle="We pick, pack and move cargo shipments locally and internationally. We have an extensive network of trusted, reliable partners to make your relocation experience as seamless as possible.."
     actions={[
-      { variant: 'primary', text: 'WhatsApp', href: 'https://wa.me/message/TJZP4WU2P2XGD1', icon: 'tabler:brand-whatsapp' },
+      {
+        variant: 'primary',
+        text: 'WhatsApp',
+        href: 'https://wa.me/message/TJZP4WU2P2XGD1',
+        icon: 'tabler:brand-whatsapp',
+      },
       { text: 'Call Us', href: '/' },
     ]}
     image={{

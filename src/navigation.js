@@ -120,7 +120,12 @@ export const headerData = {
     // },
   ],
   actions: [
-    { text: 'WhatsApp', icon: 'tabler:brand-whatsapp', href: 'https://wa.me/message/TJZP4WU2P2XGD1', target: '_parent' },
+    {
+      text: 'WhatsApp',
+      icon: 'tabler:brand-whatsapp',
+      href: 'https://wa.me/message/TJZP4WU2P2XGD1',
+      target: '_parent',
+    },
   ],
 };
 

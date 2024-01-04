@@ -5,6 +5,8 @@ import CallToAction from '~/components/widgets/CallToAction.astro';
 
 const metadata = {
   title: 'Cargo UAE to Pakistan',
+  description:
+    'Send your cargo anywhere in Pakistan. We are specialized in packing and moving home appliances, furniture, TV and all other items.',
 };
 ---
 
@@ -16,7 +18,12 @@ const metadata = {
     title="Cargo UAE to Pakistan!"
     subtitle="Send your cargo anywhere in Pakistan. We are specialized in packing and moving home appliances, furniture, TV and all other items."
     actions={[
-      { variant: 'primary', text: 'WhatsApp', href: 'https://wa.me/message/TJZP4WU2P2XGD1', icon: 'tabler:brand-whatsapp' },
+      {
+        variant: 'primary',
+        text: 'WhatsApp',
+        href: 'https://wa.me/message/TJZP4WU2P2XGD1',
+        icon: 'tabler:brand-whatsapp',
+      },
       { text: 'Contact', href: '/' },
     ]}
     image={{

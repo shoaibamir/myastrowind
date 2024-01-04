@@ -5,7 +5,9 @@ import Hero2 from '~/components/widgets/Hero2.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
 
 const metadata = {
-  title: 'Sales Landing Page Demo',
+  title: 'Pakistan Cargo Service',
+  description:
+    'Efficient Pakistan Cargo Service - Your Trusted Partner for Swift Deliveries! Contact us now for reliable shipping. Your cargo, our priority',
 };
 ---
 
@@ -17,7 +19,12 @@ const metadata = {
     title="Pakistan Cargo Service!"
     subtitle="We offer end to end cargo servcie upto your home."
     actions={[
-      { variant: 'primary', text: 'WhatsApp', href: 'https://wa.me/message/TJZP4WU2P2XGD1', icon: 'tabler:square-rounded-arrow-right' },
+      {
+        variant: 'primary',
+        text: 'WhatsApp',
+        href: 'https://wa.me/message/TJZP4WU2P2XGD1',
+        icon: 'tabler:square-rounded-arrow-right',
+      },
       { text: 'Contact', href: '/' },
     ]}
     image={{

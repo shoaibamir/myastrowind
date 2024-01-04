@@ -6,6 +6,8 @@ import CallToAction from '~/components/widgets/CallToAction.astro';
 
 const metadata = {
   title: 'Pak Cargo',
+  description:
+    'We offer door-to-door local and international shipping services that meet your needs and exceed your expectations.',
 };
 ---
 
@@ -17,7 +19,12 @@ const metadata = {
     title="Pak Cargo!"
     subtitle="We are a trusted, reliable international shipping company. We offer door-to-door local and international shipping services that meet your needs and exceed your expectations."
     actions={[
-      { variant: 'primary', text: 'WhatsApp', href: 'https://wa.me/message/TJZP4WU2P2XGD1', icon: 'tabler:brand-whatsapp' },
+      {
+        variant: 'primary',
+        text: 'WhatsApp',
+        href: 'https://wa.me/message/TJZP4WU2P2XGD1',
+        icon: 'tabler:brand-whatsapp',
+      },
       { text: 'Contact Us', href: '/' },
     ]}
     image={{
