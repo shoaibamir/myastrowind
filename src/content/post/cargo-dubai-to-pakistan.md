@@ -1,8 +1,7 @@
 ---
 title: Cargo Dubai to Pakistan
-excerpt: To find a shipping company that can handle your cargo, you can search
-  online or ask for recommendations from friends or colleagues who have shipped
-  cargo between Dubai and Pakistan in the past.
+excerpt: " Dubai to Pakistan, we’ve got your cargo covered! Fast, affordable,
+  and dependable. Your shipment, our commitment. Ship smart, ship with us"
 category: Cargo
 tags:
   - pakistan cargo
