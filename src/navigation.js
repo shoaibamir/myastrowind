@@ -125,11 +125,18 @@ export const headerData = {
   ],
   actions: [
     {
+      variant: 'primary',
+      text: 'Call',
+      icon: 'tabler:phone',
+      href: 'tel:+971504948135',
+    },
+    {
       text: 'WhatsApp',
       icon: 'tabler:brand-whatsapp',
       href: 'https://wa.me/message/TJZP4WU2P2XGD1',
-      target: '_parent',
+      // target: '_parent',
     },
+    
   ],
 };
 
@@ -138,7 +145,7 @@ export const footerData = {
     {
       title: 'Products',
       links: [
-        { text: 'Sea Cargo', href: '/services' },
+        { text: 'Sea Cargo', href: '/services/sea-cargo' },
         { text: 'Air Cargo', href: '/services' },
         { text: 'Warehousing', href: '/services' },
         { text: 'Courier Servcies', href: '/services' },
