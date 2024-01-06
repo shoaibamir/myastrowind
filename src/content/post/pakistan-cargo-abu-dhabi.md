@@ -1,7 +1,7 @@
 ---
 title: Pakistan Cargo Abu Dhabi
-excerpt: Efficient Pakistan Cargo in Abu Dhabi. Seamless logistics for your
-  shipments. Contact us for reliable services. Call us now
+excerpt: Pakistan Cargo Abu Dhabi – Your destination for reliable and
+  cost-effective shipping solutions
 category: cargo
 tags:
   - Shipping
