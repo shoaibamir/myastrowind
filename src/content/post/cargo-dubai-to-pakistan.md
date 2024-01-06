@@ -1,7 +1,7 @@
 ---
 title: Cargo Dubai to Pakistan
-excerpt: "Efficient Cargo Services: Ship from Dubai to Pakistan stress-free.
-  Contact us for reliable and timely deliveries. Your cargo journey starts here"
+excerpt: Cargo Dubai to Pakistan – We deliver reliability. Explore our efficient
+  shipping solutions now
 category: Cargo
 tags:
   - pakistan cargo
