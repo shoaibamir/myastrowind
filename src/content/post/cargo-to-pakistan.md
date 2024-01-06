@@ -1,10 +1,6 @@
 ---
-excerpt: Shipping cargo to Pakistan can be an overwhelming process, but with the
-  right information and resources, it can be a hassle-free experience. In this
-  article, we will explore everything you need to know about cargo shipping to
-  Pakistan, including the types of cargo that can be shipped, the modes of
-  transportation available, the shipping process, rates and costs, delivery
-  options, and tips for successful shipping.
+excerpt: Cargo to Pakistan - We ensure your goods reach their destination safely
+  and on time.
 author: Amir
 metadata:
   canonical: https://astrowind.vercel.app/get-started-website-with-astro-tailwind-css
