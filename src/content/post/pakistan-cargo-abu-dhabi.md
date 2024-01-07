@@ -2,6 +2,8 @@
 title: Pakistan Cargo Abu Dhabi
 excerpt: Pakistan Cargo Abu Dhabi – Your destination for reliable and
   cost-effective shipping solutions
+metadata:
+  canonical: https://www.pakistancargo.org/pakistan-cargo-abu-dhabi
 category: cargo
 tags:
   - Shipping

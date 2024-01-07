@@ -1,10 +1,10 @@
 ---
+title: Cargo to Pakistan
 excerpt: Cargo to Pakistan - We ensure your goods reach their destination safely
   and on time.
 author: Amir
 metadata:
-  canonical: https://astrowind.vercel.app/get-started-website-with-astro-tailwind-css
-title: Cargo to Pakistan
+  canonical: https://www.pakistancargo.org/cargo-to-pakistan
 category: Cargo
 tags:
   - pakistancargo

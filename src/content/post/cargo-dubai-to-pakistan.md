@@ -2,6 +2,8 @@
 title: Cargo Dubai to Pakistan
 excerpt: Cargo Dubai to Pakistan – We deliver reliability. Explore our efficient
   shipping solutions now
+metadata:
+  canonical: https://www.pakistancargo.org/cargo-dubai-to-pakistan
 category: Cargo
 tags:
   - pakistan cargo
