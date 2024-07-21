@@ -9,14 +9,14 @@ site:
 # Default SEO metadata
 metadata:
   title:
-    default: Pakistan cargo
+    default: Pakistan Cargo
     template: '%s — Pakistan Cargo'
-  description: "\U0001F680 No.1 Pakistan Cargo in Dubai, Abu Dhabi, Sharjah. We offer sea cargo, air cargo, warehouse storage, customs clearance and packing."
+  description: 'No.1 Pakistan Cargo in Dubai, Abu Dhabi, Sharjah. We offer sea cargo, air cargo, warehouse storage, customs clearance and packing.'
   robots:
     index: true
     follow: true
   openGraph:
-    site_name: PakistanCargo.org
+    site_name: 'Pakistan Cargo'
     images:
       - url: '~/assets/images/default.png'
         width: 1200
@@ -63,7 +63,7 @@ apps:
 analytics:
   vendors:
     googleAnalytics:
-      id: null # or "G-BS06Q55ZGP"
+      id: "G-BS06Q55ZGP"
 
 ui:
   theme: 'system' # Values: "system" | "light" | "dark" | "light:only" | "dark:only"
