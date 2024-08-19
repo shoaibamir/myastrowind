@@ -20,6 +20,7 @@
     "@fontsource-variable/inter": "^5.0.15",
     "astro": "^3.6.4",
     "astro-icon": "^1.0.0-next.2",
+    "astro-seo": "^0.8.4",
     "limax": "4.1.0",
     "lodash.merge": "^4.6.2",
     "typescript-esbuild": "^0.3.1",
