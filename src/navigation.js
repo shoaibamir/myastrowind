@@ -135,6 +135,7 @@ export const headerData = {
       text: 'WhatsApp',
       icon: 'tabler:brand-whatsapp',
       href: 'https://wa.me/message/TJZP4WU2P2XGD1',
+      target: '_blank',
       // target: '_parent',
     },
     
