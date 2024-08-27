@@ -64,8 +64,8 @@ export const headerData = {
       text: 'Offers',
       links: [
         {
-          text: 'Cargo to Pakistan',
-          href: getPermalink('/offers/cargo-to-pakistan'),
+          text: 'Win Cargo Ticket',
+          href: getPermalink('/offers/pakistan-cargo-ticket'),
         },
         {
           text: 'Pakistan Cargo Service',
