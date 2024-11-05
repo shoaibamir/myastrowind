@@ -1,14 +1,14 @@
 ---
-title: Cargo to Pakistan
 excerpt: Cargo to Pakistan - We ensure your goods reach their destination safely
   and on time.
 author: Amir
 metadata:
   canonical: https://www.pakistancargo.org/cargo-to-pakistan
+title: Cargo to Pakistan
 category: Cargo
 tags:
   - pakistancargo
-  - cargo to pakistan
+  - cargo-to-pakistan
 image: https://images.pexels.com/photos/8828620/pexels-photo-8828620.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
 publishDate: 2023-12-12T18:28:58.010Z
 ---
