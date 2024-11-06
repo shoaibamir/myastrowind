@@ -4,7 +4,7 @@ excerpt: Sending a car from Dubai to Pakistan involves selecting between RoRo
   and container shipping, preparing necessary documents, understanding customs
   clearance, and choosing a reputable shipping company for a smooth process.
 category: shipping
-image: https://unsplash.com/photos/parked-green-car-AKJ7gq-n4zE
+image: https://images.pexels.com/photos/28569814/pexels-photo-28569814/free-photo-of-white-mercedes-suv-front-of-rustic-cargo-containers.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
 publishDate: 2024-11-06T13:25:46.616Z
 author: amir
 ---
