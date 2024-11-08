@@ -150,7 +150,7 @@ export const footerData = {
         { text: 'Sea Cargo', href: '/services/sea-cargo' },
         { text: 'Air Cargo', href: '/services' },
         { text: 'Warehousing', href: '/services' },
-        { text: 'Courier Servcies', href: '/services' },
+        { text: 'Courier Services', href: '/services' },
         { text: 'Transportation', href: '/services' },
         { text: 'Packing services', href: '/services' },
         { text: 'Full Container', href: '/services' },
