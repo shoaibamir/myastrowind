@@ -21,7 +21,7 @@ For the purposes of these Terms and Conditions:
 
 - **Country** refers to: United Arab Emirates
 
-- **Company** (referred to as either "the Company", "We", "Us" or "Our" in this Agreement) refers to Pakistan Cargo, 1 Cupertino, CA 95014.
+- **Company** (referred to as either "the Company", "We", "Us" or "Our" in this Agreement) refers to Pakistan Cargo services.
 
 - **Device** means any device that can access the Service such as a computer, a cellphone or a digital tablet.
 
