@@ -28,7 +28,7 @@
   },
   "devDependencies": {
     "@astrojs/mdx": "^1.1.5",
-    "@astrojs/partytown": "^2.0.2",
+    "@astrojs/partytown": "^2.1.4",
     "@astrojs/tailwind": "5.0.2",
     "@iconify-json/flat-color-icons": "^1.1.9",
     "@iconify-json/tabler": "^1.1.100",
