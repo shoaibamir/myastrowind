@@ -18,7 +18,7 @@
     "@astrolib/analytics": "^0.4.2",
     "@astrolib/seo": "^1.0.0-beta.4",
     "@fontsource-variable/inter": "^5.0.15",
-    "astro": "^3.6.4",
+    "astro": "^5.12.8",
     "astro-icon": "^1.0.0-next.2",
     "astro-seo": "^0.8.4",
     "limax": "4.1.0",
@@ -27,9 +27,9 @@
     "unpic": "^3.14.1"
   },
   "devDependencies": {
-    "@astrojs/mdx": "^1.1.5",
+    "@astrojs/mdx": "^4.3.3",
     "@astrojs/partytown": "^2.1.4",
-    "@astrojs/tailwind": "5.0.2",
+    "@astrojs/tailwind": "^5.1.5",
     "@iconify-json/flat-color-icons": "^1.1.9",
     "@iconify-json/tabler": "^1.1.100",
     "@tailwindcss/typography": "^0.5.10",
