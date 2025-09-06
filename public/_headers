@@ -1,2 +1,9 @@
+/*
+  X-Frame-Options: DENY
+  X-XSS-Protection: 1; mode=block
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Content-Security-Policy: default-src 'self'; img-src 'self' data: https: /.netlify/images/ https://www.googletagmanager.com https://www.googleadservices.com https://stats.g.doubleclick.net https://www.gstatic.com; script-src 'self' https://cdn.gpteng.co https://www.googletagmanager.com https://www.googleadservices.com https://*.google.com https://*.doubleclick.net 'unsafe-inline'; style-src 'self' 'unsafe-inline'; font-src 'self'; connect-src 'self' https: https://www.googletagmanager.com https://www.googleadservices.com https://*.google.com https://*.doubleclick.net;
+
 /_astro/*
   Cache-Control: public, max-age=31536000, immutable
